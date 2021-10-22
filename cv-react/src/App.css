@@ -1,152 +1,165 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+  background: #55acee;
+  color: white;
 }
 
-
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
 header#cabecalho {
-    color: white;
-    background-color: rgb(58, 58, 58);
-    padding: 5px;
-    margin: 0px;
+  color: white;
+  background-color: rgb(58, 58, 58);
+  padding: 5px;
+  margin: 0px;
 }
 
 header#cabecalho h1 {
-    font-family: Montserrat, sans-serif;
-    font-weight: lighter;
-    font-size: 30pt;
-    color: white;
-    text-align: center;
-    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.603);
+  font-family: Montserrat, sans-serif;
+  font-weight: lighter;
+  font-size: 30pt;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.603);
+}
+
+header#cabecalho span {
+    font-weight: bold;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    font-size: 14pt;
-    background-color: white;
-    color: black;
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  background-color: white;
+  color: black;
 }
 
 p {
-    text-align: justify;
-    text-indent: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  text-align: justify;
+  text-indent: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 a {
-    color: #505050;
-    text-decoration: none;
+  color: #505050;
+  text-decoration: none;
 }
 
 a:hover {
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
 
-section#maincontent {
-        display: block;
-        width: 1080px;
-        float: right;
-        margin-top: 10px;
-        background-color: rgb(245, 245, 245);
-        padding: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        border: 8px white;
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+.mainContent {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
-section#maincontent h1 {
-        font-size: 25pt;
-        color: darkmagenta;
-        margin-bottom: 5px;
-        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+section#informationSection {
+  width: 90rem;
+  float: right;
+  margin-top: 10px;
+  background-color: rgb(245, 245, 245);
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 8px white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
-table{
-    border-spacing: 15px;
+section#informationSection h1 {
+  font-size: 25pt;
+  color: darkmagenta;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+table {
+  border-spacing: 15px;
 }
 
 table td.c1 {
-    font-weight: bold;
-    color: rgb(87, 87, 87);
-    font-size: 11pt;
+  font-weight: bold;
+  color: rgb(87, 87, 87);
+  font-size: 11pt;
 }
 
 table td.c2 {
-    font-weight: bold;
-    padding-left: 5px;
+  font-weight: bold;
+  padding-left: 5px;
 }
 
 table td.c3 {
-    font-size: 10pt;
-    color: rgb(87, 87, 87);
-    font-weight: bolder;
-    vertical-align: top;
-    padding-left: 10px;
+  font-size: 10pt;
+  color: rgb(87, 87, 87);
+  font-weight: bolder;
+  vertical-align: top;
+  padding-left: 10px;
 }
 
 table#tabela-ferramentas td.ce {
-    font-weight: bolder;
-    padding-right: 5px;
+  font-weight: bolder;
+  padding-right: 5px;
 }
 
 table#tabela-ferramentas td.cd {
-    color: rgb(61, 61, 61);
-    font-size: 11pt;
-    padding-left: 10px;
+  color: rgb(61, 61, 61);
+  font-size: 11pt;
+  padding-left: 10px;
 }
 
 aside#lateral {
-    display: block;
-    height: 1000px;
-    width: 200px;
-    float: left;
-    background-color: lightsteelblue;
-    margin-top: 10px;
-    text-align: right;
-    padding: 10px;
-    font-size: 12pt;
-    border: 8px white;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  display: block;
+  height: auto;
+  width: 18rem;
+  float: left;
+  background-color: lightsteelblue;
+  margin-top: 10px;
+  text-align: right;
+  padding: 10px;
+  font-size: 1rem;
+  border: 8px white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
-aside#lateral h1{
-    font-size: 13pt;
+aside#lateral h1 {
+  font-size: 13pt;
 }
 
 aside#lateral p {
-    text-indent: 0px;
-    text-align: left;
+  text-indent: 0px;
+  text-align: left;
 }
 
 aside#lateral p.idiomas-skills {
-    font-style: italic;
-    font-weight: 10pt;
-    color: rgb(66, 66, 66);
+  font-style: italic;
+  font-weight: 10pt;
+  color: rgb(66, 66, 66);
 }
 
 aside#lateral img#fotocv {
-    display: block;
-    height: 250px;
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    border: 8px white;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  display: block;
+  height: 250px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  border: 8px white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }

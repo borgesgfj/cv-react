@@ -1,0 +1,70 @@
+{
+  "dataCv": {
+    "Aluno | Monitor": {
+      "period": "06/2021 - atual",
+      "institution": "PodCodar Code School"
+    },
+    "Doutorado em Física": {
+      "period": "03/2014 - 04/2018",
+      "institution": "Universidade Federal de Minas Gerais"
+    },
+    "Mestrado em Física": {
+      "period": "03/2011 - 06/2013",
+      "institution": "Universidade Federal de Minas Gerais"
+    },
+    "Bacharelado em Física de Materiais": {
+      "period": "03/2007 - 12/2010",
+      "institution": "Universidade Federal de Uberlândia"
+    }
+  },
+  "professionalExp": {
+    "Professor substituto": {
+      "period": "(02/2019 - 01/2021) | (03/2013 - 02/2014)",
+      "institution": "Universidade Federal de Uberlândia"
+    },
+    "Professor de Matemática": {
+      "period": "08/2018 - 12/2018",
+      "institution": "Centro Educacional Rogêdo"
+    }
+  },
+  "computationalSkills": {
+    "HTML": {
+      "level": "Intermediário"
+    },
+    "CSS": {
+      "level": "Intermediário"
+    },
+    "JavaScript": {
+      "level": "Intermediário"
+    },
+    "React": {
+      "level": "Iniciante"
+    },
+    "Git": {
+      "level": "Intermediário"
+    },
+    "Matlab": {
+      "level": "Intermediário"
+    },
+    "Python": {
+      "level": "Básico"
+    },
+    "Latex": {
+      "level": "Intermediário"
+    }
+  },
+  "languageSkills": {
+    "Inglês": {
+      "comprehension": "Compreende bem",
+      "read": "Lê bem",
+      "write": "Escreve bem",
+      "speak": "Fala bem"
+    },
+    "Espanhol": {
+      "comprehension": "Compreende bem",
+      "read": "Lê bem",
+      "write": "Escreve razoável",
+      "speak": "Fala razoável"
+    }
+  }
+}
